@@ -1,0 +1,21 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+    
+    display: flex; /* so child elements can use flexbox stuff too! */
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    border:2px solid black;
+  }
+  .product-image img {
+    max-width: 100px;
+  }
+  
